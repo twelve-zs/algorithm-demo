@@ -31,5 +31,23 @@ public class AlgorithmUtil {
         arr[indexTwo] = temp;
         return true;
     }
-
+    public static boolean swap(char []arr,int indexOne,int indexTwo){
+        //数组为空交换失败
+        if (arr == null || arr.length == 0){
+            return false;
+        }
+        //下标小于0交换失败
+        if (indexOne<0||indexTwo<0){
+            return false;
+        }
+        //下表超过数组长度交换失败
+        if (arr.length-1<indexOne||arr.length-1<indexTwo){
+            return false;
+        }
+        //元素交换
+        char temp = arr[indexOne];
+        arr[indexOne] = arr[indexTwo];
+        arr[indexTwo] = temp;
+        return true;
+    }
 }
