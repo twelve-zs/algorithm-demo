@@ -64,7 +64,7 @@ public class Permutation {
                 //交换元素
                 AlgorithmUtil.swap(arr,index,i);
                 //递归
-                repeatPermutation(arr,index+1);
+                noRepeatPermutation(arr,index+1);
                 //回复原排列顺序
                 AlgorithmUtil.swap(arr,index,i);
             }
