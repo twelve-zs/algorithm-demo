@@ -1,10 +1,9 @@
 package com.zangsheng;
 
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class Main {
-
+  public static   ArrayList<String> list =new ArrayList<>();
     public static void main(String[] args) {
         //全排列demo
 //        int []arr = new int[]{1,2,3};
@@ -21,5 +20,14 @@ public class Main {
 //        System.out.println(Arrays.toString(arr));
 //        heapSort.Des(arr);
 //        System.out.println(Arrays.toString(arr));
+
+
+        //生成括号
+//        GenerateParenthesis parenthesis = new GenerateParenthesis();
+//        ArrayList<String> strings = parenthesis.generateParenthesis(10);
+//       System.out.println(strings);
     }
+
+
+
 }
